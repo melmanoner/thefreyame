@@ -1,0 +1,625 @@
+body{
+	background: #F1F4FF;
+}
+
+.ellipse{
+	position: absolute;
+	width: 237px;
+	height: 237px;
+	left: 59px;
+	top: 41px;
+	background: #1966FF;
+	opacity: 0.2;
+	filter: blur(124px);
+}
+
+.ellipse1{
+	position: absolute;
+	width: 221px;
+	height: 81px;
+	left: 339px;
+	top: 783px;
+	
+	background: linear-gradient(90deg, #DA22FF 0%, #9733EE 100%);
+	opacity: 0.2;
+	filter: blur(124px);
+}
+
+
+.screen{
+	background: #F1F4FF;
+	position: absolute;
+	top:40px;
+	left: 36px;
+	width: 1058px;
+	height: 788px;
+	border: 0.770508px solid rgba(255, 255, 255, 0.2);
+	border-radius: 15.4102px;
+	overflow: hidden;
+}
+
+.container{
+	max-width: 1130px;
+	margin: 20px auto;
+	width: 1130px;
+	height: 870px;
+	background: url('../img/ipad.png');
+}
+
+
+
+
+.container{
+	position: relative;
+
+}
+
+
+
+.header{
+	height:115.85px;
+	width: 100%;
+	border: 0.770508px solid rgba(255, 255, 255, 0.2);
+	border-radius: 15.4102px;
+	display: flex;
+	
+}
+
+
+
+.profile{
+	position: relative;
+	min-width: 461px;
+	width: 465px;
+	height: 100%;
+}
+
+.portret{
+	position: absolute;
+	top: 26px;
+	left: 34px;
+}
+
+
+.social_bar{
+	width: 402px;
+	height: 100%;
+	position: relative;
+}
+
+.theme{
+	position: relative;
+	width: 191px;
+}
+
+.social_icon{
+	margin: 0 7px;
+	width: 65.37px;
+	height: 39.03px;	
+}
+
+.social_icon:hover{
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.icon_block{
+	display: flex;
+	margin:0 -7px;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+
+}
+
+.name{
+	position: absolute;
+	width: 180px;
+	height: 31px;
+	left: 126px;
+	top: 36px;
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20.4318px;
+	line-height: 31px;	
+	color: #121212;
+}
+
+.online{
+	position: absolute;
+	width: 38px;
+	height: 18px;
+	left: 126px;
+	top: 65px;
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11.9186px;
+	line-height: 18px;
+
+	
+	
+	color: #1966FF;
+}
+
+.greenline{
+	position: absolute;
+	width: 12.77px;
+	height: 12.77px;
+	left: 79px;
+	top: 77px;
+	
+	background: #00FF75;
+	border: 0;
+	border-radius: 50%;
+}
+
+
+.toggle{
+	position: absolute;
+	top:37.5px;
+	right: 45px;
+	width: 65px;
+	height: 36px;
+	border:2px solid #1966FF;
+	border-radius: 35px;
+	display: flex;
+	
+}
+
+.toggle_sun{
+	width: 50%;
+	position: relative;
+}
+
+.toggle_moon{
+	width: 50%;
+	position: relative;
+}
+
+.sun{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top:8px;
+	left:10px;
+
+}
+
+.moon{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top:8px;
+	right: 10px;
+}
+
+.choice_theme{
+	position: absolute;
+	top: 3px;
+	left: 5px;
+	width: 26px;
+	height: 26px;
+	background: #1966FF;
+	border: 0px solid;
+	border-radius: 50%;
+}
+
+
+.under_header_line{
+	margin: 0 45px; 
+}
+
+
+.input_message_block{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 110px;
+}
+
+
+
+.message_block{
+	position: relative;
+	margin-top:10px;
+	margin-left: 34px;
+	margin-right: 34px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+
+.message{
+	margin-bottom: 15px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;	
+	color: #4E7489;
+}
+
+.msg_left{
+	
+}
+
+.left, .right{
+	border: 1px solid #DAEDF8;
+	background: #DAEDF8;
+	border-radius: 5px;
+	padding: 12px 16px;
+
+}
+
+.right{
+	display: inline-block;
+	margin-left: auto;
+	background: #BFE7FF;
+}
+
+#hello{
+	display: none;
+}
+#giftforu{
+	display: none;
+}
+#exlusive{
+	display: none;
+}
+#block_photo{
+	display: none;
+}
+
+.block_photo{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.header_block_photo{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 125%;	
+	display: flex;
+	align-items: center;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	color: #0079FD;
+}
+
+.icon_ph{
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+}
+
+.ph1{
+	border-radius: 19px;
+	margin-top:15px;
+	margin-right: 10px;
+}
+.ph2{
+	border-radius: 19px;
+	margin-top:15px;
+	margin-right: 10px;
+}
+.ph3{
+	border-radius: 19px;
+	margin-top:15px;
+	margin-right: 10px;
+}
+
+.ex_pack{
+	color:#1966FF;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.got_it{
+}
+
+.eye_btn{
+	padding: 6px 0;
+}
+.gotit{
+	margin: 20px 0;
+	width: 300px;
+	height: 51px;
+	background: linear-gradient(180deg, #60C8F5 0%, #376DE7 100%);
+	border-radius: 8px;
+}
+
+.span_gotit{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.input_message{
+	width: 622.88px;
+	height: 49.31px;
+	background: rgba(255, 255, 255, 0.92);
+	border: 1px solid #C8C8CC;
+	backdrop-filter: blur(2px);	
+	border-radius: 10.9581px;
+	color: black;
+	background: #FFFFFF 0.9;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 28px;
+	padding: 9px 19px;
+	position: absolute;
+	bottom: 25px;
+	left: 179px;
+}
+
+.send_message_button{
+	background: url(../img/send_btn.png);
+	width: 53px;
+	height: 50px;
+	position: absolute;
+	bottom: 25px;
+	right: 176px;
+}
+
+.tg_send{
+	position: absolute;
+	top: 13px;
+	left: 12px;
+}
+
+.top_line_bottom{
+	position: absolute;
+	top: 21px;
+	left: 45px;
+}
+
+
+.km_writing{
+	max-width: 200px;
+	display:inline-block;
+  	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: #4E7489;
+	opacity: 0.5;
+	position: absolute;
+	top:0;
+	left: 443px;
+
+}
+
+#blue_btn{
+	display: none;
+}
+
+.dat_span{
+	-webkit-animation: dat_span 0.5s ease-in-out infinite alternate;
+}
+.dat_span:nth-child(1){
+	-webkit-animation-delay:0.15s;
+}
+
+.dat_span:nth-child(2){
+	-webkit-animation-delay:0.30s;
+}
+
+.dat_span:nth-child(3){
+	-webkit-animation-delay:0.45s;
+}
+
+.social_bar2{
+	display: none;
+}
+
+#input_info{
+	opacity: 0.5;
+}
+
+
+@-webkit-keyframes dat_span {
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+
+.gotit{
+    transition: 1s;
+    animation: gotit 2s infinite;
+}
+.gotit:active{
+    animation: none;
+    transform: scale(1);
+}
+@keyframes gotit {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.1,1.1, 1.1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@media only screen and (max-width: 992px){
+	.container{
+		background: #ECF6FF;
+		margin:0 0;
+		position: fixed;
+		top:0px;
+		left: 0px;
+		width: 100%;
+		height: 100vh;
+	}
+	.screen{
+		max-width: 100%;
+		position: fixed;
+		top:0px;
+		left: 0px;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		flex-direction: column; 
+	}
+	.header{
+		flex: 0.5;
+	}
+	.message_block{
+		margin-top:0;
+		margin-left:10px;
+		margin-right: 10px;
+		flex: 2;
+	}
+	.social_bar{
+		display: none;
+	}
+	.profile{
+		width: 80%;
+	}
+	.theme{
+		width: 20%;
+	}
+	.portret{
+		position: absolute;
+		top: 30px;
+		left: 14px;
+}
+	.greenline{
+	
+	left: 59px;
+	top: 81px;
+}
+	.name{
+		
+		left: 90px;
+	}
+	.online{
+		left: 90px;
+	}
+	.toggle{
+		right: 60px;
+	}
+	.input_message_block{
+		flex: 0.5;
+		position: relative;
+		margin-bottom: 30px;
+		
+	}
+	.block_input{
+		
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+	}
+	
+	.social_bar2{
+		display: flex;
+		height: 80px;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		
+		margin-left: auto;
+	}
+	.icon_block{
+		margin-top: 5px;
+		position: absolute;
+		bottom: :0;
+		left: 0;
+		margin-left: 40px;
+		width: 100%;
+		
+	}
+	.input_message{
+		-webkit-appearance: none;
+	
+		position: absolute;
+		top:20px;
+		left: 10px;
+		
+		width: 80%;
+		height: 48px;
+
+	}
+	.send_message_button{
+		-webkit-appearance: none;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		opacity: 0.5;		
+	}
+	.km_writing{
+		display: block;
+		position: absolute;
+		top:0;
+		left: 50%;
+		margin-left: -100px;
+
+	}
+	.top_line_bottom{
+		top:20px;
+		left: 0px;
+	}
+	.sens_content{
+		display: flex;
+		flex-wrap: nowrap;
+
+
+	}
+	.ph1{
+		width: 150px;
+		position: relative;
+		top:0px;
+		left:-10px;
+		z-index: 3;
+	}
+	.ph2{
+		width: 150px;
+		position: relative;
+		top:0px;
+		left: -60px;
+		z-index: 2;
+	}
+	.ph3{
+		width: 150px;
+		position: relative;
+		top:0px;
+		left: -120px;
+		z-index: 1;
+	}
+	.under_header_line{
+		display: none; 
+}
+	.block_photo{
+		margin-left: 10px;
+	}
+	.gotit{
+		width: 90%;
+		margin-left: 3%;
+	}
+}
